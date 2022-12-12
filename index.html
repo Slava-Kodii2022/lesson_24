@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Налаштування поведінки в'юпорта -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 24</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+		<main class="page">
+			<div>Домашка JS</div>
+			<h2>Урок №8</h2>
+			<h3>Стрілочні функції, рекурсія, планування: setTimeout і setInterval.</h3>
+			<p>Задача :</p>
+			<ul>
+				<ol>Задача №1 перший 'Коля!',бо функція буде виконана після завершення роботи setTimeout</ol>
+				<ol>Задача №2 вірно визвана функція</ol>
+				<ol>Задача №3 НЕ вірно - функція оголошена до її виконання</ol>
+				<ol>Задача №4 функція визвана за межами блоку, тому потрібно оголосити змінну за межами блоку</ol>
+			</ul>
+			<h2>Урок №12</h2>
+			<h3>Масиви. Методи масивів. Редагування, пошук, сортування.</h3>
+			<p>Задача :</p>
+			<ul>
+				<ol>Задача №1 буде 4 (довжина)</ol>
+				<ol>Задача №2 виконано, виведено в Консолі</ol>
+				<ol>Задача №3 видаляємо за допомогою ".splice" та призначаємо видаленому елементу нову зміну</ol>
+				<ol>Задача №4 робимо за допомогою ".split"</ol>
+				<ol>Задача №5 на початку роботи previousValue = 9</ol>
+			</ul>
+			<h2>Урок №13</h2>
+			<h3>Document object model (DOM) протягом години. Зміна HTML CSS. Атрибути та властивості. Оточення.</h3>
+			<p>Задача №1</p>
+			<p>const getElement = document.querySelectorAll('[data-say-hi="yes"]');</p>
+			<div data-say-hi="yes"> Привіт!</div>
+
+			<p>Задача №2 </p>
+			<p>const elem = document.querySelectorAll('li');
+				console.log(elem[1]);</p>
+			<ul>
+				<li>Корчі</li>
+				<li>Йончі</li>
+			</ul>
+
+			<p>Задача №3 </p>
+			<p>const elems = document.querySelectorAll('.like');
+				console.log(elems);</p>
+			<div class="like"></div>
+			<div class="subscribe"></div>
+			<div class="like subscribe"></div>
+
+			<p>Задача №4 </p>
+
+			<p> 'Текст' додасться після останнього дочірнього елемента, але так буде працювати з методом пошуку
+				"document.querySelector", а у завданні зазначений "querySelectorAll", що викличе помилку </p>
+			<ul>
+				<li>Пункт 1</li>
+				<li>Пункт 2</li>
+			</ul>
+
+			<h2>Урок №14</h2>
+			<h3>Pозміри прокручування та координати елементів на сторінці та вікна браузера</h3>
+
+			<p>Задача №1</p>
+			<p>ширина прокрутки = windowWidth - mainElementWidth</p>
+
+			<ul>
+				<ol>Задача №2 виконано, виведено в Консолі</ol>
+			</ul>
+
+			<p>Задача №3 </p>
+			<img src="img/hcj.jpg" alt="" class="page__img">
+
+		</main>
+		<footer class="footer">
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
